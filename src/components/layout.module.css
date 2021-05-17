@@ -1,11 +1,24 @@
+body {
+  background-color: #E6F4F1;
+}
+
+nav {
+  display: flex;
+  background-color: #002B37;
+  color: #E6F4F1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height:  135px;
+}
+
 .container {
   margin: auto;
   max-width: 500px;
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #1B2F2A;
 }
 
 .heading {
-  color: rebeccapurple;
+  color: #006554;
 }
 .nav-links {
   display: flex;
@@ -16,5 +29,5 @@
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: black;
+  color: #E6F4F1;
 }
