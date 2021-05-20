@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const ExperiencePage = () => {
   return (
-    <main>
+    <main id="experience">
       <title>Experience</title>
       <span className="span_block"></span>
       <Layout pageTitle="Experience">

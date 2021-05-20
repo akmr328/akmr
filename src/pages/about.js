@@ -10,7 +10,7 @@ import Layout from '../components/layout'
 
 const AboutPage = () => {
   return (
-    <main>
+    <main id="about">
       <title>About Me</title>
       <span className="span_block"></span>
       <Layout pageTitle="Hey, I'm Annie!">
