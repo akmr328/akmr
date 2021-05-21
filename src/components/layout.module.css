@@ -31,3 +31,8 @@ nav {
 .nav-link-text {
   color: #E6F4F1;
 }
+
+.tiny-logo {
+  height: 50px;
+  width: 50px;
+}
