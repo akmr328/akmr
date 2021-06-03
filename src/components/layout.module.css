@@ -7,7 +7,7 @@ nav {
   background-color: #002B37;
   color: #E6F4F1;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  height:  135px;
+  height:  115px;
 }
 
 .container {
@@ -21,18 +21,60 @@ nav {
   color: #006554;
 }
 .nav-links {
-  display: flex;
   list-style: none;
-  padding-left: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .nav-link-item {
   padding-right: 2rem;
+  font-size: 15px;
+  padding: 10px 30px;
+  font-weight: 500;
+  border-radius: 50px;
+  justify-items: center;
 }
 .nav-link-text {
   color: #E6F4F1;
 }
 
-.tiny-logo {
-  height: 50px;
-  width: 50px;
+.home {
+  font-size: 15px;
+  background-color: #006554;
+  color: #E6F4F1;
+  padding: 10px 30px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.tinyLogo {
+  height: 20px;
+  width: 20px;
+}
+
+#experience {
+  background-color: #006554;
+  color: #E6F4F1
+}
+
+.banner {
+  padding: 10px;
+  text-align: center;
+  background: tomato;
+  color: white;
+}
+
+.banner-title {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.hero_img {
+  opacity: 0.5;
+}
+
+.hero_img:hover {
+  opacity: 1.0;
 }
